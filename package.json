@@ -1,0 +1,24 @@
+{
+  "name": "joke-generator",
+  "version": "1.0.0",
+  "description": "A random joke generator using an external API",
+  "main": "index.js",
+  "bin": {
+    "joke": "cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "joke",
+    "api",
+    "random",
+    "generator"
+  ],
+  "author": "Dragon74bos",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.11"
+  }
+}
